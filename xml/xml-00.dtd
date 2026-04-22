@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"
+<!ELement alumno (nombre, nacimiento)>
+<!ELement nombre (#PCDATA)
+<!ELement nacimiento (#PCDATA)

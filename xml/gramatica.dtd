@@ -1,0 +1,24 @@
+<!ELEMENT Carro (Motor, Chasis, Seguridad)>
+<!ATTLIST Carro
+          marca CDATA #REQUIRED
+          modelo CDATA #REQUIRED
+          anio CDATA #REQUIRED>
+
+<!ELEMENT Motor EMPTY>
+<!ATTLIST Motor
+          tipo CDATA #REQUIRED
+          turbo (true | false) "false"
+          hp CDATA #REQUIRED>
+
+<!ELEMENT Chasis (Pieza*)>
+<!ATTLIST Chasis
+          color CDATA #IMPLIED>
+
+<!ELEMENT Pieza EMPTY>
+<!ATTLIST Pieza
+          name CDATA #REQUIRED>
+
+<!ELEMENT Seguridad EMPTY>
+<!ATTLIST Seguridad
+          bolsas_aire CDATA #REQUIRED
+          abs (true | false) "true">

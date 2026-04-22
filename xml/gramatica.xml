@@ -1,0 +1,8 @@
+<Carro marca="Toyota" modelo="Supra" anio="2024">
+    <Motor tipo="L6" turbo="true" hp="382" />
+    <Chasis color="Rojo">
+        <Pieza name="Aleron_Trasero"/>
+        <Pieza name="Rines_19_Pulgadas"/>
+    </Chasis>
+    <Seguridad bolsas_aire="7" abs="true" />
+</Carro>
