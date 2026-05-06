@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+</head>
+<body>
+    <hi>titulo</hi>
+    <p id="p1"></p>
+    <input type="text" id="input1">
+    <button id="boton1">evento</button>
+    <button id="boton2">color</button>
+
+    <script>
+        let parrafo = document.getElementById("parrafo1")
+        let entrada = document.getElementById("input1")
+        let boton = document.getElementById("click", escribe)
+        let botonColor = document.getElementById("boton2")
+        // control de eventos mediante una llamada de call back
+        function escribe(){
+            parrafo.innerText = entrada.value
+        }
+        
+        // invocacion con funcion anonima
+        botonColor.addEventListener("click", funtion()){
+            parrafo.style.color = "red"
+        }
+
+    <script>
+<body>
+</html>

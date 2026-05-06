@@ -1,0 +1,34 @@
+button {
+    width: 25%;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+div {
+    width: 160px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+/* Colores originales */
+button[id="b-div"], 
+button[id="b-mult"], 
+button[id="b-res"], 
+button[id="b-sum"] {
+    background-color: yellow;
+}
+
+button[id="b-punto"] {
+    background-color: #ff00ff;
+}
+
+button[id="b-ig"] {
+    background-color: #93c47d;
+}
