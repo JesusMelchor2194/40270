@@ -17,7 +17,7 @@ input {
     text-align: right;
 }
 
-/* Colores originales */
+/* Colores */
 button[id="b-div"], 
 button[id="b-mult"], 
 button[id="b-res"], 
@@ -31,4 +31,10 @@ button[id="b-punto"] {
 
 button[id="b-ig"] {
     background-color: #93c47d;
+}
+
+/* El nuevo CE en rojo */
+button[id="b-ce"] {
+    background-color: #ff4d4d;
+    color: white;
 }

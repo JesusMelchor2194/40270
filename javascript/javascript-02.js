@@ -13,6 +13,8 @@ function pintar(e) {
 
     if (dato == "=") {
         resultado.value = eval(resultado.value);
+    } else if (dato == "CE") {
+        resultado.value = ""; // Limpiar
     } else {
         resultado.value += dato;
     }
